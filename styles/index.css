@@ -18,7 +18,7 @@ nav ul {
     display: flex;
     gap: 15px;
     justify-content: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 nav ul li {
@@ -33,4 +33,9 @@ nav ul a {
 
 nav ul a:hover {
     text-decoration: underline;
+}
+
+
+i {
+    padding-right: 3px;
 }

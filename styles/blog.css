@@ -89,7 +89,7 @@ nav ul {
     display: flex;
     gap: 15px;
     justify-content: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 nav ul li {
@@ -108,4 +108,8 @@ nav ul a:hover {
 
 section h2 {
     margin-bottom: 10px;
+}
+
+i {
+    padding-right: 3px;
 }
