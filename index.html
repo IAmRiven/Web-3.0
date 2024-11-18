@@ -23,6 +23,33 @@
         </nav>
     </header>
 
+    <section id="contacto">
+        <h2><u>Contacto</u></h2>
+        <p>Si tienes alguna pregunta o deseas comunicarte con nosotros, no dudes en hacerlo a través de los siguientes medios:</p>
+        <ul>
+            <li><strong>Correo electrónico:</strong> contacto@web30.com</li>
+            <li><strong>Teléfono:</strong> +34 635 456 789</li>
+            <li><strong>Dirección:</strong> Calle San Juan 123, Murcia, España</li>
+        </ul>
+        <form action="/send-message" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Web 3.0. Todos los derechos reservados.</p>
+    </footer>
+    
+
 </body>
 
 </html>

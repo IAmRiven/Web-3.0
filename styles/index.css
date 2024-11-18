@@ -8,6 +8,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: rgb(85, 140, 174);
     color: #333;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vecteezy.com%2Farte-vectorial%2F11947118-fondo-abstracto-moderno-en-color-azul-claro-adecuado-para-presentaciones-folletos-carteles-tarjetas-de-visita-y-mas&psig=AOvVaw01EbHroa0KmgwuX38M0uJC&ust=1732014891867000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCf-7Tg5YkDFQAAAAAdAAAAABAJ");
+    
 }
 
 header {
@@ -33,8 +35,114 @@ nav ul a {
 
 nav ul a:hover {
     text-decoration: underline;
+
+
+section{
+    border-radius: 8px;
+    margin: 100px;
+    padding: 50px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    border: 1px solid black;
+    width: 550px;
+
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
 }
 
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+header nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+header nav ul a:hover {
+    background-color: #555;
+}
+¡
+section#contacto {
+    
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#contacto h2 {
+    color: #444;
+    
+    
+}
+
+section#contacto p {
+    margin-bottom: 15px;
+}
+
+section#contacto ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+section#contacto ul li {
+    margin-bottom: 10px;
+}
+
+section#contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#contacto label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+section#contacto input, 
+section#contacto textarea, 
+section#contacto button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section#contacto button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+section#contacto button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
 
 i {
     padding-right: 3px;
