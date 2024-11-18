@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: lightskyblue; */
+    color: #333;
+}
+
+header {
+    background-color: lightskyblue;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+}
