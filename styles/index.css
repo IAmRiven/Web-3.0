@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(85, 140, 174);
+    /* background-color: lightskyblue; */
     color: #333;
     background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vecteezy.com%2Farte-vectorial%2F11947118-fondo-abstracto-moderno-en-color-azul-claro-adecuado-para-presentaciones-folletos-carteles-tarjetas-de-visita-y-mas&psig=AOvVaw01EbHroa0KmgwuX38M0uJC&ust=1732014891867000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCf-7Tg5YkDFQAAAAAdAAAAABAJ");
     
@@ -20,7 +20,7 @@ nav ul {
     display: flex;
     gap: 15px;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 nav ul li {
@@ -35,8 +35,8 @@ nav ul a {
 
 nav ul a:hover {
     text-decoration: underline;
-
-
+    
+}
 section{
     border-radius: 8px;
     margin: 100px;
@@ -144,6 +144,3 @@ footer {
     margin-top: 20px;
 }
 
-i {
-    padding-right: 3px;
-}
