@@ -6,10 +6,10 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(85, 140, 174);
+    /* background-color: lightskyblue; */
     color: #333;
     background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vecteezy.com%2Farte-vectorial%2F11947118-fondo-abstracto-moderno-en-color-azul-claro-adecuado-para-presentaciones-folletos-carteles-tarjetas-de-visita-y-mas&psig=AOvVaw01EbHroa0KmgwuX38M0uJC&ust=1732014891867000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCf-7Tg5YkDFQAAAAAdAAAAABAJ");
-    
+
 }
 
 header {
@@ -20,7 +20,7 @@ nav ul {
     display: flex;
     gap: 15px;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 nav ul li {
@@ -36,18 +36,20 @@ nav ul a {
 nav ul a:hover {
     text-decoration: underline;
 
+}
 
-section{
+section {
     border-radius: 8px;
     margin: 100px;
     padding: 50px;
     display: block;
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid black;
     width: 550px;
 
 }
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -75,9 +77,9 @@ header nav ul a {
 header nav ul a:hover {
     background-color: #555;
 }
-¡
-section#contacto {
-    
+
+¡ section#contacto {
+
     padding: 20px;
     background-color: #f9f9f9;
     margin: 20px;
@@ -87,8 +89,8 @@ section#contacto {
 
 section#contacto h2 {
     color: #444;
-    
-    
+
+
 }
 
 section#contacto p {
@@ -115,8 +117,8 @@ section#contacto label {
     font-weight: bold;
 }
 
-section#contacto input, 
-section#contacto textarea, 
+section#contacto input,
+section#contacto textarea,
 section#contacto button {
     margin-bottom: 15px;
     padding: 10px;
@@ -142,8 +144,4 @@ footer {
     text-align: center;
     padding: 15px 0;
     margin-top: 20px;
-}
-
-i {
-    padding-right: 3px;
 }
